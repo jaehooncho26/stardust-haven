@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Stardust Haven | Romantic Joshua Tree Airbnb & Top Things To Do</title>
+
+  <meta name="description"
+        content="Stardust Haven is a quiet, romantic Airbnb near the Joshua Tree National Park north entrance. A simple guide to the top things to do in Joshua Tree plus a peaceful place to have deeper conversations with someone you love and time to build together on a deeper level." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://itsgoodtothink.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Stardust Haven | Romantic Joshua Tree Airbnb & Simple Guide" />
+  <meta property="og:description" content="A romantic Joshua Tree Airbnb with a simple guide to the best things to do in Joshua Tree National Park." />
+  <meta property="og:url" content="https://itsgoodtothink.com/" />
+  <meta property="og:image" content="https://itsgoodtothink.com/picture1.png" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VacationRental",
+    "name": "Stardust Haven",
+    "description": "A quiet, romantic Airbnb near the Joshua Tree National Park north entrance. Designed for slow days, deeper conversations, stargazing, and thoughtful time with someone you love.",
+    "url": "https://itsgoodtothink.com/",
+    "image": [
+      "https://itsgoodtothink.com/picture1.png",
+      "https://itsgoodtothink.com/picture2.png",
+      "https://itsgoodtothink.com/picture3.png",
+      "https://itsgoodtothink.com/picture4.png"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "6631 Cahuilla Ave",
+      "addressLocality": "Twentynine Palms",
+      "addressRegion": "CA",
+      "postalCode": "92277",
+      "addressCountry": "US"
+    },
+    "amenityFeature": [
+      { "@type": "LocationFeatureSpecification", "name": "Near Joshua Tree North Entrance" },
+      { "@type": "LocationFeatureSpecification", "name": "Wi-Fi" },
+      { "@type": "LocationFeatureSpecification", "name": "Stargazing" }
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #000000;
+      --bg-alt: #050608;
+      --bg-soft: #101621;
+      --accent: #cf9c4a;
+      --accent-soft: rgba(207,156,74,0.12);
+      --accent-strong: #e7b964;
+      --text: #f5f5f5;
+      --text-muted: #cbd5f5;
+      --border: #262b35;
+      --max-width: 1040px;
+      --radius-lg: 18px;
+      --radius-md: 12px;
+      --shadow-soft: 0 18px 40px rgba(0,0,0,0.6);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top, rgba(207,156,74,0.33) 0, #000000 55%, #000000 100%);
+      color: var(--text);
+      font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.7;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+      border-radius: var(--radius-md);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { color: var(--accent-strong); }
+
+    section {
+      padding: 64px 18px;
+      display: flex;
+      justify-content: center;
+    }
+
+    main { display: block; }
+
+    .inner {
+      width: 100%;
+      max-width: var(--max-width);
+    }
+
+    h1, h2, h3 {
+      font-family: "Playfair Display", "Georgia", serif;
+      letter-spacing: -0.03em;
+      margin: 0 0 16px;
+      color: #f9fafb;
+    }
+
+    h1 { font-size: clamp(2.4rem, 7vw, 3.8rem); line-height: 1.05; }
+    h2 { font-size: clamp(1.9rem, 5vw, 2.4rem); line-height: 1.15; }
+    h3 { font-size: 1.4rem; }
+
+    p {
+      margin: 0 0 16px;
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 0.78rem;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    /* HEADER (mobile-first) */
+    .site-header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 20;
+      padding: 10px 16px;
+      backdrop-filter: blur(18px);
+      background: linear-gradient(to bottom, rgba(0,0,0,0.95), rgba(0,0,0,0.6), transparent);
+      border-bottom: 1px solid rgba(148,163,184,0.12);
+    }
+
+    .site-header-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .brand {
+      font-family: "Playfair Display", "Georgia", serif;
+      font-size: 0.95rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #f9fafb;
+      white-space: nowrap;
+    }
+
+    .nav-links {
+      display: none; /* hidden on mobile */
+      gap: 18px;
+      font-size: 0.9rem;
+    }
+
+    .nav-links a { color: #e5e7eb; }
+    .nav-links a:hover { color: var(--accent); }
+
+    .nav-cta {
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--accent);
+      font-size: 0.78rem;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      white-space: nowrap;
+      background: rgba(0,0,0,0.6);
+    }
+    .nav-cta:hover {
+      background: var(--accent);
+      color: #020617;
+    }
+
+    /* BUTTONS */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 11px 20px;
+      border-radius: 999px;
+      border: 1px solid var(--accent);
+      font-size: 0.86rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      cursor: pointer;
+      transition: 0.25s ease;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #020617;
+    }
+    .btn-primary:hover {
+      background: var(--accent-strong);
+      border-color: var(--accent-strong);
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--accent);
+    }
+    .btn-ghost:hover { background: var(--accent-soft); }
+
+    /* HERO (mobile-first) */
+    .hero {
+      min-height: 100vh;
+      padding-top: 100px;
+      padding-bottom: 72px;
+    }
+
+    .hero-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .hero-kicker {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      color: var(--accent-strong);
+      margin-bottom: 8px;
+    }
+
+    .hero-label {
+      font-size: 0.85rem;
+      color: #e5e7eb;
+      margin-bottom: 12px;
+    }
+
+    .hero-sub {
+      font-size: 1rem;
+      color: #e5e7eb;
+      max-width: 32rem;
+      margin-bottom: 20px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .hero-note {
+      font-size: 0.82rem;
+      color: #f9fafb;
+      max-width: 30rem;
+    }
+
+    .hero-card {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(148,163,184,0.35);
+      background: #020617;
+      min-height: 230px;
+    }
+
+    .hero-photo {
+      position: absolute;
+      inset: 0;
+      background-image: url('picture1.png');
+      background-size: cover;
+      background-position: center;
+      filter: saturate(1.05);
+    }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top right, rgba(0,0,0,0.95), rgba(0,0,0,0.55));
+    }
+
+    .hero-card-inner {
+      position: relative;
+      z-index: 1;
+      padding: 18px 18px 16px;
+    }
+
+    .hero-tagline {
+      font-size: 0.78rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #f9fafb;
+      margin-bottom: 6px;
+    }
+
+    .hero-card h3 {
+      font-size: 1.25rem;
+      margin-bottom: 4px;
+      color: #f9fafb;
+    }
+
+    .hero-card p {
+      font-size: 0.9rem;
+      margin-bottom: 8px;
+      color: #e5e7eb;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 6px;
+      font-size: 0.78rem;
+      color: #e5e7eb;
+    }
+
+    .pill {
+      padding: 4px 9px;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,0.6);
+      background: rgba(15,23,42,0.9);
+    }
+
+    /* WHY JOSHUA TREE */
+    .why {
+      background: radial-gradient(circle at top, rgba(207,156,74,0.16) 0, #050608 55%, #000000 100%);
+    }
+
+    .why-inner {
+      max-width: 720px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .why-inner p { font-size: 0.98rem; }
+
+    /* EXPLORE */
+    .explore {
+      background: #050608;
+    }
+
+    .explore-header {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .explore-header p {
+      max-width: 520px;
+      margin: 0 auto;
+      font-size: 0.95rem;
+    }
+
+    .explore-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 18px;
+    }
+
+    .spot-card {
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border);
+      background: var(--bg-soft);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+      transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+    }
+
+    .spot-link {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .spot-link:hover {
+      text-decoration: none;
+    }
+
+    .spot-photo {
+      height: 130px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Use local images p1.png - p9.png */
+    .spot-photo.north-entrance { background-image: url('p1.png'); }
+    .spot-photo.observatory   { background-image: url('p2.png'); }
+    .spot-photo.arch-rock     { background-image: url('p3.png'); } /* update this image as you like */
+    .spot-photo.hidden-valley { background-image: url('p4.png'); }
+    .spot-photo.skull-rock    { background-image: url('p5.png'); }
+    .spot-photo.keys-view     { background-image: url('p6.png'); }
+    .spot-photo.cholla        { background-image: url('p7.png'); }
+    .spot-photo.barker-dam    { background-image: url('p8.png'); }
+    .spot-photo.noah-purifoy  { background-image: url('p9.png'); }
+
+    .spot-body {
+      padding: 12px 14px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      flex: 1;
+    }
+
+    .spot-name {
+      font-weight: 500;
+      color: #f9fafb;
+      font-size: 0.98rem;
+    }
+
+    .spot-tagline {
+      font-size: 0.86rem;
+      color: var(--text-muted);
+    }
+
+    .spot-meta {
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.78rem;
+      color: #9ca3af;
+    }
+
+    .spot-chip {
+      padding: 4px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,0.4);
+      background: rgba(15,23,42,0.8);
+    }
+
+    /* Spinner */
+    .spin-wrapper {
+      margin-top: 18px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .spin-visual {
+      position: relative;
+      width: 64px;
+      height: 64px;
+    }
+
+    #spin-disc {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      border: 2px solid var(--accent);
+      background: conic-gradient(
+        from 0deg,
+        rgba(207,156,74,0.1),
+        rgba(207,156,74,0.6),
+        rgba(207,156,74,0.1),
+        rgba(207,156,74,0.7),
+        rgba(207,156,74,0.1)
+      );
+      box-shadow: 0 0 18px rgba(0,0,0,0.9);
+      transform-origin: center;
+    }
+
+    .spin-pointer {
+      position: absolute;
+      top: -9px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.72rem;
+      color: var(--accent-strong);
+    }
+
+    .spin-disc--spinning {
+      animation: spinDisc 0.9s cubic-bezier(0.19, 1, 0.22, 1) 1;
+    }
+
+    @keyframes spinDisc {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(900deg); }
+    }
+
+    .spin-result-text {
+      font-size: 0.86rem;
+      color: #e5e7eb;
+      min-height: 1.2em;
+      text-align: center;
+    }
+
+    .spot-card--highlight {
+      box-shadow:
+        0 0 0 2px rgba(207,156,74,0.95),
+        0 18px 40px rgba(0,0,0,0.9);
+      border-color: rgba(207,156,74,0.95);
+      transform: translateY(-3px);
+    }
+
+    /* STAY */
+    .stay {
+      background: radial-gradient(circle at top, rgba(207,156,74,0.18) 0, #020617 60%, #000000 100%);
+    }
+
+    .stay-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 26px;
+      align-items: flex-start;
+    }
+
+    .stay-gallery {
+      display: grid;
+      grid-template-columns: repeat(2,minmax(0,1fr));
+      gap: 10px;
+      width: 100%;
+    }
+
+    .stay-img {
+      border-radius: var(--radius-lg);
+      min-height: 120px;
+      background-size: cover;
+      background-position: center;
+      border: 1px solid rgba(148,163,184,0.3);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stay-img:nth-child(1) { background-image: url('picture1.png'); }
+    .stay-img:nth-child(2) { background-image: url('picture2.png'); }
+    .stay-img:nth-child(3) { background-image: url('picture3.png'); }
+    .stay-img:nth-child(4) { background-image: url('picture4.png'); }
+
+    .stay-img::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at top, transparent 0, rgba(15,23,42,0.6) 70%);
+    }
+
+    .stay-copy p { font-size: 0.98rem; }
+
+    .stay-features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin: 14px 0 10px;
+      font-size: 0.82rem;
+    }
+
+    .chip {
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: rgba(15,23,42,0.9);
+      border: 1px solid rgba(148,163,184,0.35);
+      color: #e5e7eb;
+    }
+
+    .stay-note {
+      font-size: 0.83rem;
+      color: #9ca3af;
+      margin-top: 8px;
+    }
+
+    .stay-facts {
+      margin: 8px 0 14px;
+      font-size: 0.88rem;
+      color: #cbd5f5;
+      list-style: none;
+      padding: 0;
+    }
+    .stay-facts li::before {
+      content: "• ";
+      color: var(--accent-strong);
+    }
+
+    /* FINAL CTA + FOOTER */
+    .cta-final {
+      text-align: center;
+      background: radial-gradient(circle at top, rgba(207,156,74,0.2) 0, #020617 70%);
+      padding-bottom: 56px;
+    }
+
+    .cta-final p {
+      max-width: 520px;
+      margin: 0 auto 20px;
+      font-size: 0.95rem;
+    }
+
+    .site-footer {
+      padding: 16px 18px 22px;
+      text-align: center;
+      font-size: 0.78rem;
+      color: #6b7280;
+      border-top: 1px solid rgba(31,41,55,0.9);
+      background: #000;
+    }
+
+    /* FLOATING MOBILE BOOK BAR */
+    .mobile-book-bar {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 30;
+      padding: 10px 16px 12px;
+      background: radial-gradient(circle at top, rgba(207,156,74,0.15) 0, #020617 70%);
+      border-top: 1px solid rgba(148,163,184,0.3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .mobile-book-bar-inner {
+      max-width: var(--max-width);
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .mobile-book-text {
+      font-size: 0.8rem;
+      color: #e5e7eb;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .mobile-book-btn {
+      flex-shrink: 0;
+    }
+
+    /* TABLET & DESKTOP */
+    @media (min-width: 720px) {
+      section { padding: 80px 24px; }
+      .hero { padding-top: 110px; padding-bottom: 80px; }
+
+      .explore-grid {
+        grid-template-columns: repeat(2, minmax(0,1fr));
+        gap: 20px;
+      }
+
+      .stay-gallery {
+        gap: 12px;
+      }
+
+      /* Hide mobile bar on larger screens */
+      .mobile-book-bar {
+        display: none;
+      }
+    }
+
+    @media (min-width: 900px) {
+      .site-header { padding: 12px 24px; }
+
+      .site-header-inner {
+        gap: 16px;
+      }
+
+      .nav-links {
+        display: flex;
+      }
+
+      .hero-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+        gap: 40px;
+        align-items: center;
+      }
+
+      .hero-card { min-height: 260px; }
+
+      .explore-grid {
+        grid-template-columns: repeat(3, minmax(0,1fr));
+      }
+
+      .stay-grid {
+        display: grid;
+        grid-template-columns: minmax(0,1.1fr) minmax(0,1fr);
+        gap: 40px;
+        align-items: center;
+      }
+    }
+
+    /* Extra bottom padding on small screens so content doesn't hide behind bar */
+    @media (max-width: 719px) {
+      body {
+        padding-bottom: 72px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <div class="brand">It’s Good To Think</div>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#why">Why the Desert</a>
+        <a href="#explore">Things To Do</a>
+        <a href="#stay">Stardust Haven</a>
+      </nav>
+      <a
+        href="https://www.airbnb.com/rooms/1554069294511780282?adults=2&check_in=2025-12-01&check_out=2025-12-05&guests=2&location=Joshua%20Tree%20Lake%20Rv%20%2526%20Campground&search_mode=regular_search&source_impression_id=p3_1764050105_P3zj20gm9nMg8dxO&previous_page_section_name=1001&federated_search_id=7457cd8f-0bad-45d6-a145-8b21d1ba89bd"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="nav-cta"
+      >
+        Book on Airbnb
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="inner hero-grid">
+        <div>
+          <div class="hero-kicker">High Desert · California</div>
+          <div class="hero-label">Joshua Tree National Park · Romantic Airbnb nearby</div>
+          <h1 id="hero-heading">It’s good to think.<br>Especially in the deserts of Joshua Tree.</h1>
+          <p class="hero-sub">
+            Stardust Haven is a quiet Airbnb near the Joshua Tree National Park north entrance.
+            This page is a simple guide to what to do in Joshua Tree, plus a calm place to stay while you do it.
+          </p>
+          <div class="hero-buttons">
+            <a href="#stay" class="btn btn-primary">See the stay</a>
+            <a
+              href="https://www.airbnb.com/rooms/1554069294511780282?adults=2&check_in=2025-12-01&check_out=2025-12-05&guests=2&location=Joshua%20Tree%20Lake%20Rv%20%2526%20Campground&search_mode=regular_search&source_impression_id=p3_1764050105_P3zj20gm9nMg8dxO&previous_page_section_name=1001&federated_search_id=7457cd8f-0bad-45d6-a145-8b21d1ba89bd"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-ghost"
+            >
+              Book on Airbnb
+            </a>
+          </div>
+          <p class="hero-note">
+
+          </p>
+        </div>
+
+        <aside class="hero-card" aria-label="Preview of Stardust Haven, a romantic Joshua Tree Airbnb">
+          <div class="hero-photo"
+               role="img"
+               aria-label="Exterior view of Stardust Haven, a romantic desert Airbnb near Joshua Tree"></div>
+          <div class="hero-overlay"></div>
+          <div class="hero-card-inner">
+            <div class="hero-tagline">Stardust Haven · a Cozy Airbnb</div>
+            <h3>A quiet home base near the park.</h3>
+            <p>
+              A small, calm desert stay near the north entrance — tucked just far enough
+              away that nights stay dark and still.
+            </p>
+            <div class="hero-meta">
+              <div class="pill">~10–15 min to Joshua Tree NP</div>
+              <div class="pill">Stargazing · Space · Stillness</div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- WHY JOSHUA TREE -->
+    <section class="why" id="why" aria-labelledby="why-heading">
+      <div class="inner why-inner">
+        <div class="eyebrow">Why the desert</div>
+        <h2 id="why-heading">Why Joshua Tree feels different.</h2>
+
+        <p>
+          There’s something extraordinary about Joshua Tree—something you only really understand once you’re 
+          standing in its quiet, otherworldly expanse. Out here, the world feels both vast and calm. The desert 
+          stretches in every direction, giving you a rare kind of space—real space—to think, to breathe, and to 
+          finally hear yourself again. Life feels less crowded, less loud, and the thoughts you’ve been carrying 
+          suddenly have room to settle.
+        </p>
+
+        <p>
+          Joshua Tree is also a place that naturally deepens connection. With fewer distractions and a horizon 
+          that never seems to end, conversations with someone you care about become slower, richer, and more 
+          meaningful. Whether you’re sitting together on a sun-warmed boulder or watching the sky fade from gold 
+          to deep violet, the desert makes it easy to open up. It encourages honesty, presence, and the kind of 
+          closeness that lasts long after you’re home again—one reason it’s become a favorite Joshua Tree 
+          getaway for couples.
+        </p>
+
+        <p>
+          Then there are the views—iconic Joshua trees silhouetted against endless sky, massive rock formations 
+          shaped by centuries of wind and time, and night skies bright enough to stop you in your tracks. The 
+          beauty here doesn’t just draw your eyes; it sparks something inside you. Many people visit Joshua Tree 
+          to reconnect creatively, reset mentally, or simply feel inspired again. It’s easy to see why this 
+          desert landscape is loved by artists, dreamers, and anyone craving clarity.
+        </p>
+
+        <p>
+          There’s also a subtle, grounding spiritual energy woven into the desert. The air feels cleaner. 
+          The quiet feels intentional. Joshua Tree has a way of lightening you—gently clearing out the mental 
+          clutter you didn’t realize you were carrying. It’s not just a scenic place; it’s a place that truly 
+          helps you reset.
+        </p>
+
+        <p>
+          If you’re looking for a destination where you can reconnect, reset, and be moved by the natural world, 
+          Joshua Tree is that place. Beautiful, grounding, creatively inspiring—it has a way of reminding you 
+          of what actually matters.
+        </p>
+      </div>
+    </section>
+
+    <!-- EXPLORE / PLACES TO GO -->
+    <section class="explore" id="explore" aria-labelledby="explore-heading">
+      <div class="inner">
+        <header class="explore-header">
+          <div class="eyebrow">Things to do in Joshua Tree</div>
+          <h2 id="explore-heading">Top things to do in Joshua Tree (from the north entrance side).</h2>
+          <p>
+            These are some of the top things to do in Joshua Tree:
+            a few short hikes, a couple of viewpoints, some desert art, and quiet places to watch the stars.
+          </p>
+          <p>
+            If you’re asking “what should I do in Joshua Tree?” or “what are the best things to do near Joshua Tree National Park?” —
+            this list will carry you through a simple, memorable trip.
+          </p>
+
+          <div class="spin-wrapper">
+            <button id="spin-button" class="btn btn-ghost" type="button">
+              Spin for a place
+            </button>
+            <div class="spin-visual" aria-hidden="true">
+              <div id="spin-disc"></div>
+              <div class="spin-pointer">▼</div>
+            </div>
+            <div id="spin-result" class="spin-result-text" aria-live="polite">
+              Not sure where to start? Let the desert decide.
+            </div>
+          </div>
+        </header>
+
+        <div class="explore-grid" id="spots-grid">
+          <!-- 1. North Entrance -->
+          <article class="spot-card" id="spot-north-entrance">
+            <a
+              href="https://www.google.com/maps?q=Joshua+Tree+National+Park+North+Entrance+Station"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="spot-link"
+            >
+              <div class="spot-photo north-entrance"
+                   role="img"
+                   aria-label="Road leading into the Joshua Tree National Park north entrance"></div>
+              <div class="spot-body">
+                <div class="spot-name">Joshua Tree National Park – North Entrance</div>
+                <div class="spot-tagline">
+                  Where your Joshua Tree day quietly begins. You roll past the sign, the road narrows, and suddenly it’s just
+                  you, the rocks, and the sky — a small crossing from regular life into something slower.
+                </div>
+                <div class="spot-meta">
+                  <span class="spot-chip">Closest park entrance</span>
+                  <span>~10–15 min drive</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <!-- 2. Observatory -->
+          <article class="spot-card" id="spot-observatory">
+            <a
+              href="https://www.google.com/maps?q=Sky%27s+The+Limit+Observatory+%26+Nature+Center"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="spot-link"
+            >
+              <div class="spot-photo observatory"
+                   role="img"
+                   aria-label="Sky’s The Limit Observatory and dark night sky near Joshua Tree"></div>
+              <div class="spot-body">
+                <div class="spot-name">Sky’s The Limit Observatory</div>
+                <div class="spot-tagline">
+                  A small observatory on the edge of the park, built for people who like to look up.
+                  Under the dark desert sky, stars stop being decoration and start feeling like context.
+                </div>
+                <div class="spot-meta">
+                  <span class="spot-chip">Stargazing</span>
+                  <span>Near entrance</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <!-- 3. Hidden Valley -->
+          <article class="spot-card" id="spot-hidden-valley">
+            <a
+              href="https://www.google.com/maps?q=Hidden+Valley+Nature+Trail+Joshua+Tree+National+Park"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="spot-link"
+            >
+              <div class="spot-photo hidden-valley"
+                   role="img"
+                   aria-label="Hidden Valley Nature Trail with rocks and Joshua trees"></div>
+              <div class="spot-body">
+                <div class="spot-name">Hidden Valley Nature Trail</div>
+                <div class="spot-tagline">
+                  A one-mile loop through rock walls and twisted trees. Walk it slowly and it turns into a moving meditation
+                  on light, shadow, and how small a person feels between stone and sky.
+                </div>
+                <div class="spot-meta">
+                  <span class="spot-chip">Easy loop</span>
+                  <span>~30–35 min away</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <!-- 4. Skull Rock -->
+          <article class="spot-card" id="spot-skull-rock">
+            <a
+              href="https://www.google.com/maps?q=Skull+Rock+Joshua+Tree+National+Park"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="spot-link"
+            >
+              <div class="spot-photo skull-rock"
+                   role="img"
+                   aria-label="Skull Rock formation beside the road in Joshua Tree National Park"></div>
+              <div class="spot-body">
+                <div class="spot-name">Skull Rock</div>
+                <div class="spot-tagline">
+                  A giant stone skull watching the road. Climb a nearby boulder, sit above the crowd, and quietly people-watch
+                  the people watching the rock.
+                </div>
+                <div class="spot-meta">
+                  <span class="spot-chip">Roadside stop</span>
+                  <span>Short visit</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <!-- 5. Keys View -->
+          <article class="spot-card" id="spot-keys-view">
+            <a
+              href="https://www.google.com/maps?q=Keys+View+Joshua+Tree+National+Park"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="spot-link"
+            >
+              <div class="spot-photo keys-view"
+                   role="img"
+                   aria-label="Keys View overlook with wide desert and mountain views"></div>
+              <div class="spot-body">
+                <div class="spot-name">Keys View Overlook</div>
+                <div class="spot-tagline">
+                  A short walk to a wide-open overlook where the whole valley falls away beneath you.
+                  Go at sunset, watch the colors stack across the horizon, and let your worries feel small.
+                </div>
+                <div class="spot-meta">
+                  <span class="spot-chip">Viewpoint</span>
+                  <span>Best at sunset</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <!-- 6. Cholla Cactus Garden -->
+          <article class="spot-card" id="spot-cholla">
+            <a
+              href="https://www.google.com/maps?q=Cholla+Cactus+Garden+Joshua+Tree+National+Park"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="spot-link"
+            >
+              <div class="spot-photo cholla"
+                   role="img"
+                   aria-label="Cholla Cactus Garden glowing at sunrise in Joshua Tree National Park"></div>
+              <div class="spot-body">
+                <div class="spot-name">Cholla Cactus Garden</div>
+                <div class="spot-tagline">
+                  A boardwalk through a field of teddybear cholla that glow when the light hits them.
+                  Beautiful, prickly, and oddly tender — proof that even sharp things can be luminous.
+                </div>
+                <div class="spot-meta">
+                  <span class="spot-chip">Quick stop</span>
+                  <span>Boardwalk loop</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <!-- 7. Barker Dam -->
+          <article class="spot-card" id="spot-barker-dam">
+            <a
+              href="https://www.google.com/maps?q=Barker+Dam+Nature+Trail+Joshua+Tree+National+Park"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="spot-link"
+            >
+              <div class="spot-photo barker-dam"
+                   role="img"
+                   aria-label="Barker Dam Trail rocks, water, and desert plants in Joshua Tree"></div>
+              <div class="spot-body">
+                <div class="spot-name">Barker Dam Nature Trail</div>
+                <div class="spot-tagline">
+                  An easy loop past boulders, desert plants, and a small historic dam.
+                  Even when the water is low, the air feels heavier here, like the landscape is quietly holding every story it’s seen.
+                </div>
+                <div class="spot-meta">
+                  <span class="spot-chip">Gentle walk</span>
+                  <span>~1–1.5 hr</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <!-- 8. Noah Purifoy Museum -->
+          <article class="spot-card" id="spot-noah-purifoy">
+            <a
+              href="https://www.google.com/maps?q=Noah+Purifoy+Outdoor+Desert+Art+Museum"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="spot-link"
+            >
+              <div class="spot-photo noah-purifoy"
+                   role="img"
+                   aria-label="Noah Purifoy Outdoor Desert Art Museum with large assemblage sculptures"></div>
+              <div class="spot-body">
+                <div class="spot-name">Noah Purifoy Desert Art Museum</div>
+                <div class="spot-tagline">
+                  A field of sculptures built from castoffs of other lives. Walk slowly between them and you start to notice:
+                  nothing here is really “junk” — just pieces waiting to be rearranged, like your own thoughts.
+                </div>
+                <div class="spot-meta">
+                  <span class="spot-chip">Outdoor art</span>
+                  <span>Free, open-air</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <!-- 9. Arch Rock Trail -->
+          <article class="spot-card" id="spot-arch-rock">
+            <a
+              href="https://www.google.com/maps?q=Arch+Rock+Trail+Joshua+Tree+National+Park"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="spot-link"
+            >
+              <div class="spot-photo arch-rock"
+                   role="img"
+                   aria-label="Arch Rock formation surrounded by boulders in Joshua Tree"></div>
+              <div class="spot-body">
+                <div class="spot-name">Arch Rock Trail</div>
+                <div class="spot-tagline">
+                  A short, easy walk to one of Joshua Tree’s most iconic rock formations — a natural stone arch tucked among boulders.
+                  Go near sunset or under a clear night sky and it feels like a small, quiet stage set just for you.
+                </div>
+                <div class="spot-meta">
+                  <span class="spot-chip">Iconic photo spot</span>
+                  <span>Easy · ~1–1.5 hr</span>
+                </div>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- STARDUST HAVEN -->
+    <section class="stay" id="stay" aria-labelledby="stay-heading">
+      <div class="inner stay-grid">
+        <article class="stay-copy">
+          <div class="eyebrow">Your home base</div>
+          <h2 id="stay-heading">Stardust Haven — a romantic Joshua Tree Airbnb.</h2>
+          <p>
+            After long desert days and long, wandering thoughts, you’ll want a place that feels like an exhale.
+            Stardust Haven is a calm, thoughtfully put-together stay near the Joshua Tree National Park north entrance.
+          </p>
+          <p>
+            Inside: soft light, simple lines, and the basics done well. Outside: space to sit,
+            a big sky above you, and enough quiet to finally hear yourself think.
+            It’s the kind of romantic stay in Joshua Tree where you can have deeper conversations with someone you love,
+            build with them, and actually have the space to hang out together on a deeper level.
+          </p>
+
+          <ul class="stay-facts">
+            <li>Located near Joshua Tree National Park, California</li>
+            <li>Roughly 10–15 minutes to the north entrance</li>
+            <li>Suited for 1–2 guests who like slow mornings, honest talks, and starry nights</li>
+          </ul>
+
+          <div class="stay-features">
+            <span class="chip">Near Joshua Tree North Entrance</span>
+            <span class="chip">Cozy, minimalist interior</span>
+            <span class="chip">Romantic stay for couples</span>
+            <span class="chip">Wi-Fi for remote work</span>
+            <span class="chip">Great stargazing nights</span>
+          </div>
+
+          <a
+            class="btn btn-primary"
+            href="https://www.airbnb.com/rooms/1554069294511780282?adults=2&check_in=2025-12-01&check_out=2025-12-05&guests=2&location=Joshua%20Tree%20Lake%20Rv%20%2526%20Campground&search_mode=regular_search&source_impression_id=p3_1764050105_P3zj20gm9nMg8dxO&previous_page_section_name=1001&federated_search_id=7457cd8f-0bad-45d6-a145-8b21d1ba89bd"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Book Stardust Haven on Airbnb
+          </a>
+          <p class="stay-note">
+            Hosted by Jaehoon — someone who likes quiet mornings, good questions, and giving guests room to breathe.
+          </p>
+        </article>
+
+        <div class="stay-gallery" aria-label="Photos of Stardust Haven, a romantic Joshua Tree Airbnb">
+          <div class="stay-img" role="img" aria-label="Stardust Haven exterior in the desert near Joshua Tree"></div>
+          <div class="stay-img" role="img" aria-label="Cozy living room interior at Stardust Haven Airbnb near Joshua Tree"></div>
+          <div class="stay-img" role="img" aria-label="Bedroom at Stardust Haven romantic Joshua Tree stay"></div>
+          <div class="stay-img" role="img" aria-label="Outdoor seating area for stargazing at Stardust Haven"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="cta-final" aria-labelledby="final-cta-heading">
+      <div class="inner">
+        <div class="eyebrow">When you’re ready</div>
+        <h2 id="final-cta-heading">Let the Joshua Tree desert clear a little space for you.</h2>
+        <p>
+          Book a few nights, pick a couple of the places above, and leave the rest of the time open.
+          Stardust Haven will be there when you’re done wandering, with a bed, a roof, deep conversation,
+          and a sky full of stars.
+        </p>
+        <a
+          href="https://www.airbnb.com/rooms/1554069294511780282?adults=2&check_in=2025-12-01&check_out=2025-12-05&guests=2&location=Joshua%20Tree%20Lake%20Rv%20%2526%20Campground&search_mode=regular_search&source_impression_id=p3_1764050105_P3zj20gm9nMg8dxO&previous_page_section_name=1001&federated_search_id=7457cd8f-0bad-45d6-a145-8b21d1ba89bd"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-primary"
+        >
+          Book Stardust Haven
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    Stardust Haven · Romantic Joshua Tree Airbnb · It’s Good To Think
+  </footer>
+
+  <!-- MOBILE FLOATING BOOK BAR -->
+  <div class="mobile-book-bar">
+    <div class="mobile-book-bar-inner">
+      <div class="mobile-book-text">
+        Ready to stay at Stardust Haven?
+      </div>
+      <a
+        href="https://www.airbnb.com/rooms/1554069294511780282?adults=2&check_in=2025-12-01&check_out=2025-12-05&guests=2&location=Joshua%20Tree%20Lake%20Rv%20%2526%20Campground&search_mode=regular_search&source_impression_id=p3_1764050105_P3zj20gm9nMg8dxO&previous_page_section_name=1001&federated_search_id=7457cd8f-0bad-45d6-a145-8b21d1ba89bd"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-primary mobile-book-btn"
+      >
+        Book on Airbnb
+      </a>
+    </div>
+  </div>
+
+  <!-- SPINNER SCRIPT -->
+  <script>
+    const spots = [
+      { id: 'spot-north-entrance', name: 'Joshua Tree NP – North Entrance' },
+      { id: 'spot-observatory', name: 'Sky’s The Limit Observatory' },
+      { id: 'spot-hidden-valley', name: 'Hidden Valley Nature Trail' },
+      { id: 'spot-skull-rock', name: 'Skull Rock' },
+      { id: 'spot-keys-view', name: 'Keys View Overlook' },
+      { id: 'spot-cholla', name: 'Cholla Cactus Garden' },
+      { id: 'spot-barker-dam', name: 'Barker Dam Nature Trail' },
+      { id: 'spot-noah-purifoy', name: 'Noah Purifoy Desert Art Museum' },
+      { id: 'spot-arch-rock', name: 'Arch Rock Trail' }
+    ];
+
+    const spinButton = document.getElementById('spin-button');
+    const spinResult = document.getElementById('spin-result');
+    const spinDisc = document.getElementById('spin-disc');
+
+    function clearHighlights() {
+      spots.forEach(spot => {
+        const el = document.getElementById(spot.id);
+        if (el) el.classList.remove('spot-card--highlight');
+      });
+    }
+
+    function highlightSpot(id) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.classList.add('spot-card--highlight');
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    if (spinButton && spinResult && spinDisc) {
+      spinButton.addEventListener('click', () => {
+        clearHighlights();
+
+        spinDisc.classList.remove('spin-disc--spinning');
+        void spinDisc.offsetWidth; // reflow
+        spinDisc.classList.add('spin-disc--spinning');
+
+        setTimeout(() => {
+          const randomSpot = spots[Math.floor(Math.random() * spots.length)];
+          spinResult.textContent = `Try this: ${randomSpot.name}`;
+          highlightSpot(randomSpot.id);
+        }, 900);
+      });
+    }
+  </script>
+</body>
+</html>
