@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-10Y5PPNLDS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-10Y5PPNLDS');
+</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Desert Thoughts | Guides & Reflections from Joshua Tree</title>
+
+  <meta name="description"
+        content="Desert Thoughts is a collection of guides and reflections from Joshua Tree — written from a quiet Airbnb called Stardust Haven near the north entrance." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://itsgoodtothink.com/desert-thoughts.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Desert Thoughts | Guides & Reflections from Joshua Tree" />
+  <meta property="og:description" content="Slow, thoughtful travel notes, guides, and ideas from the Joshua Tree desert." />
+  <meta property="og:url" content="https://itsgoodtothink.com/desert-thoughts.html" />
+  <meta property="og:image" content="https://itsgoodtothink.com/picture1.png" />
+  <link rel="icon" href="/favicon.png" type="image/png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #000000;
+      --bg-alt: #050608;
+      --bg-soft: #101621;
+      --accent: #cf9c4a;
+      --accent-soft: rgba(207,156,74,0.12);
+      --accent-strong: #e7b964;
+      --text: #f5f5f5;
+      --text-muted: #cbd5f5;
+      --border: #262b35;
+      --max-width: 1040px;
+      --radius-lg: 18px;
+      --radius-md: 12px;
+      --shadow-soft: 0 18px 40px rgba(0,0,0,0.6);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top, rgba(207,156,74,0.33) 0, #000000 55%, #000000 100%);
+      color: var(--text);
+      font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.7;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+      border-radius: var(--radius-md);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { color: var(--accent-strong); }
+
+    main { display: block; }
+
+    section {
+      padding: 72px 18px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .inner {
+      width: 100%;
+      max-width: var(--max-width);
+    }
+
+    h1, h2, h3 {
+      font-family: "Playfair Display", "Georgia", serif;
+      letter-spacing: -0.03em;
+      margin: 0 0 16px;
+      color: #f9fafb;
+    }
+
+    h1 { font-size: clamp(2.4rem, 7vw, 3.4rem); line-height: 1.05; }
+    h2 { font-size: clamp(1.9rem, 5vw, 2.3rem); line-height: 1.15; }
+    h3 { font-size: 1.25rem; }
+
+    p {
+      margin: 0 0 16px;
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 0.78rem;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    /* HEADER */
+    .site-header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 20;
+      padding: 10px 16px;
+      backdrop-filter: blur(18px);
+      background: linear-gradient(to bottom, rgba(0,0,0,0.95), rgba(0,0,0,0.6), transparent);
+      border-bottom: 1px solid rgba(148,163,184,0.12);
+    }
+
+    .site-header-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .brand {
+      font-family: "Playfair Display", "Georgia", serif;
+      font-size: 0.95rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #f9fafb;
+      white-space: nowrap;
+    }
+
+    .nav-links {
+      display: none;
+      gap: 18px;
+      font-size: 0.9rem;
+    }
+
+    .nav-links a { color: #e5e7eb; }
+    .nav-links a:hover { color: var(--accent); }
+
+    .nav-links .active {
+      color: var(--accent-strong);
+      position: relative;
+    }
+    .nav-links .active::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -4px;
+      height: 2px;
+      border-radius: 999px;
+      background: var(--accent-strong);
+    }
+
+    .nav-cta {
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--accent);
+      font-size: 0.78rem;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      white-space: nowrap;
+      background: rgba(0,0,0,0.6);
+    }
+    .nav-cta:hover {
+      background: var(--accent);
+      color: #020617;
+    }
+
+    /* PAGE HERO */
+    .page-hero {
+      padding-top: 110px;
+      padding-bottom: 40px;
+    }
+
+    .page-hero-lede {
+      max-width: 720px;
+    }
+
+    .page-hero-meta {
+      margin-top: 12px;
+      font-size: 0.86rem;
+      color: #9ca3af;
+    }
+
+    /* POSTS GRID */
+    .posts {
+      background: #050608;
+      padding-top: 24px;
+      padding-bottom: 80px;
+    }
+
+    .posts-header {
+      margin-bottom: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .posts-header p {
+      max-width: 520px;
+      font-size: 0.94rem;
+    }
+
+    .post-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 18px;
+    }
+
+    .post-card {
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border);
+      background: var(--bg-soft);
+      padding: 16px 16px 18px;
+      box-shadow: 0 14px 28px rgba(0,0,0,0.5);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .post-meta-top {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 10px;
+      font-size: 0.78rem;
+      color: #9ca3af;
+    }
+
+    .post-tag {
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,0.4);
+      background: rgba(15,23,42,0.8);
+      font-size: 0.78rem;
+    }
+
+    .post-title {
+      margin: 2px 0 4px;
+      font-size: 1.05rem;
+      color: #f9fafb;
+    }
+
+    .post-excerpt {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .post-footer {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+      color: #9ca3af;
+    }
+
+    .post-link {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+    }
+
+    .post-link span {
+      margin-left: 4px;
+    }
+
+    /* FOOTER */
+    .site-footer {
+      padding: 16px 18px 22px;
+      text-align: center;
+      font-size: 0.78rem;
+      color: #6b7280;
+      border-top: 1px solid rgba(31,41,55,0.9);
+      background: #000;
+    }
+
+    @media (min-width: 720px) {
+      section { padding: 88px 24px; }
+
+      .post-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+      }
+    }
+
+    @media (min-width: 900px) {
+      .site-header { padding: 12px 24px; }
+
+      .site-header-inner {
+        gap: 16px;
+      }
+
+      .nav-links {
+        display: flex;
+      }
+
+      .post-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 719px) {
+      body {
+        padding-bottom: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a href="/" class="brand">It’s Good To Think</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="/#why">Why the Desert</a>
+        <a href="/#explore">Things To Do</a>
+        <a href="/#stay">Stardust Haven</a>
+        <a href="/desert-thoughts.html" class="active">Desert Thoughts</a>
+      </nav>
+      <a
+        href="https://www.airbnb.com/rooms/1554069294511780282"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="nav-cta"
+      >
+        Book on Airbnb
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="page-hero" aria-labelledby="dt-heading">
+      <div class="inner page-hero-lede">
+        <div class="eyebrow">Desert Thoughts</div>
+        <h1 id="dt-heading">Guides & quiet ideas from the Joshua Tree desert.</h1>
+        <p>
+          This is where the thinking part of <strong>It’s Good To Think</strong> lives — slow travel guides,
+          notes from Stardust Haven, and reflections that tend to show up only after a few days in the high desert.
+        </p>
+        <p class="page-hero-meta">
+          Browse the pieces below. Start with a guide if you’re planning your first trip,
+          or a reflection if you’re already dreaming about coming back.
+        </p>
+      </div>
+    </section>
+
+    <!-- POSTS GRID -->
+    <section class="posts" aria-labelledby="posts-heading">
+      <div class="inner">
+        <header class="posts-header">
+          <div>
+            <div class="eyebrow">Start here</div>
+            <h2 id="posts-heading">A few early desert thoughts.</h2>
+          </div>
+          <p>
+            As Stardust Haven grows, this page will fill with more guides and essays — all written from a small,
+            quiet place near the north entrance of Joshua Tree National Park.
+          </p>
+        </header>
+
+        <div class="post-grid">
+          <!-- Post 1 -->
+          <article class="post-card">
+            <div class="post-meta-top">
+              <span class="post-tag">Guide</span>
+              <span>Planning · First-timers</span>
+            </div>
+            <h3 class="post-title">
+              Best Time to Visit Joshua Tree (for Quiet, Stars & Space to Think)
+            </h3>
+            <p class="post-excerpt">
+              If you care more about stargazing and slow mornings than crowded trails, the “best time to visit”
+              isn’t about peak season — it’s about temperature, moonlight, and how much noise you’re escaping from.
+            </p>
+            <div class="post-footer">
+              <span>~5 minute read</span>
+              <a href="#" class="post-link">
+                Coming soon <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Post 2 -->
+          <article class="post-card">
+            <div class="post-meta-top">
+              <span class="post-tag">Reflection</span>
+              <span>On thinking</span>
+            </div>
+            <h3 class="post-title">
+              Why the Desert Is One of the Best Places to Rethink Your Life
+            </h3>
+            <p class="post-excerpt">
+              Cities are great for momentum. Deserts are great for honesty. A few days in Joshua Tree can feel
+              like stepping outside your own story just long enough to edit it.
+            </p>
+            <div class="post-footer">
+              <span>~4 minute read</span>
+              <a href="#" class="post-link">
+                Coming soon <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Post 3 -->
+          <article class="post-card">
+            <div class="post-meta-top">
+              <span class="post-tag">Guide</span>
+              <span>Trip blueprint</span>
+            </div>
+            <h3 class="post-title">
+              A 2-Day Joshua Tree Itinerary Built Around Deep Conversation
+            </h3>
+            <p class="post-excerpt">
+              Less “do everything,” more “do a few things well.” A simple two-day flow that leaves room for walks,
+              stars, and the kind of conversations you remember a year later.
+            </p>
+            <div class="post-footer">
+              <span>~6 minute read</span>
+              <a href="#" class="post-link">
+                Coming soon <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Post 4 -->
+          <article class="post-card">
+            <div class="post-meta-top">
+              <span class="post-tag">Stardust Haven</span>
+              <span>Behind the stay</span>
+            </div>
+            <h3 class="post-title">
+              Building Stardust Haven: Notes from a Tiny Desert Airbnb
+            </h3>
+            <p class="post-excerpt">
+              Why we chose this corner of the desert, what we optimized the space for, and the little details
+              (like light, silence, and notebooks) that matter more than square footage.
+            </p>
+            <div class="post-footer">
+              <span>~5 minute read</span>
+              <a href="#" class="post-link">
+                Coming soon <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Post 5 -->
+          <article class="post-card">
+            <div class="post-meta-top">
+              <span class="post-tag">Reflection</span>
+              <span>Returning home</span>
+            </div>
+            <h3 class="post-title">
+              What the Desert Sends Back with You
+            </h3>
+            <p class="post-excerpt">
+              You don’t stay in Joshua Tree forever. But the way you notice light, time, and conversation might
+              come home with you — if you let it.
+            </p>
+            <div class="post-footer">
+              <span>~3 minute read</span>
+              <a href="#" class="post-link">
+                Coming soon <span>↗</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    Stardust Haven · Cozy Joshua Tree Airbnb · It’s Good To Think
+  </footer>
+</body>
+</html>

@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-10Y5PPNLDS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-10Y5PPNLDS');
+</script>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -40,6 +50,8 @@
     ]
   }
   </script>
+
+  
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -275,8 +287,7 @@
       background-position: center;
     }
 
-    .hero-overlay {
-    }
+    .hero-overlay { }
 
     .hero-card-inner {
       position: relative;
@@ -530,9 +541,6 @@
     .stay-img:nth-child(3) { background-image: url('picture3.png'); }
     .stay-img:nth-child(4) { background-image: url('picture4.png'); }
 
-    .stay-img::after {
-    }
-
     .stay-copy p { font-size: 0.98rem; }
 
     .stay-features {
@@ -549,12 +557,6 @@
       background: rgba(15,23,42,0.9);
       border: 1px solid rgba(148,163,184,0.35);
       color: #e5e7eb;
-    }
-
-    .stay-note {
-      font-size: 0.83rem;
-      color: #9ca3af;
-      margin-top: 8px;
     }
 
     .stay-facts {
@@ -642,7 +644,6 @@
         gap: 12px;
       }
 
-      /* Hide mobile bar on larger screens */
       .mobile-book-bar {
         display: none;
       }
@@ -680,7 +681,6 @@
       }
     }
 
-    /* Extra bottom padding on small screens so content doesn't hide behind bar */
     @media (max-width: 719px) {
       body {
         padding-bottom: 72px;
@@ -696,6 +696,7 @@
         <a href="#why">Why the Desert</a>
         <a href="#explore">Things To Do</a>
         <a href="#stay">Stardust Haven</a>
+        <a href="/desert-thoughts.html">Desert Thoughts</a>
       </nav>
       <a
         href="https://www.airbnb.com/rooms/1554069294511780282?adults=2&check_in=2025-12-01&check_out=2025-12-05&guests=2&location=Joshua%20Tree%20Lake%20Rv%20%2526%20Campground&search_mode=regular_search&source_impression_id=p3_1764050105_P3zj20gm9nMg8dxO&previous_page_section_name=1001&federated_search_id=7457cd8f-0bad-45d6-a145-8b21d1ba89bd"
@@ -732,7 +733,8 @@
             </a>
           </div>
           <p class="hero-note">
-
+            Want to go deeper into the desert and the ideas it shakes loose?
+            Read <a href="/desert-thoughts.html">Desert Thoughts</a>, a growing collection of guides and reflections.
           </p>
         </div>
 
@@ -1072,7 +1074,6 @@
             Stardust Haven is a calm, thoughtfully put-together stay near the Joshua Tree National Park north entrance.
           </p>
           <p>
-            
           </p>
 
           <ul class="stay-facts">
@@ -1190,7 +1191,7 @@
         clearHighlights();
 
         spinDisc.classList.remove('spin-disc--spinning');
-        void spinDisc.offsetWidth; // reflow
+        void spinDisc.offsetWidth;
         spinDisc.classList.add('spin-disc--spinning');
 
         setTimeout(() => {
